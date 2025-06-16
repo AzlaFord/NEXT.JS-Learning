@@ -1,4 +1,4 @@
-import { products, Product, Review } from './../../../lib/data';
+import { products, Product, Review } from '../../../../lib/data';
 import type { JSX } from 'react';
 
 export default function ReviewsPage(): JSX.Element {
