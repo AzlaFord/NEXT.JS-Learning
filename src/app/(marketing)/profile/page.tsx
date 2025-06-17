@@ -1,3 +1,11 @@
-export default function Profile(){
-    return <><h1>Profile page</h1></>
+"use client";
+import Link from "next/link";
+
+export default function Home() {
+  return (
+    <>
+      <h1>Welcome home!</h1>
+      <Link href="/profile">Profile</Link>
+    </>
+  );
 }
